@@ -7,3 +7,23 @@ html {
 *::after {
   box-sizing: inherit;
 }
+/* Globales */
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+/* Header i Navegación */
+.nombre-sitio {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+.nombre-sitio span {
+  color: #037bc0;
+}
+
+.nav-principal {
+  border-top: 1px solid #e1e1e1;
+  padding: 20px 0;
+}
