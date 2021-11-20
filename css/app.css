@@ -17,6 +17,10 @@ a {
   margin: 0 auto;
 }
 
+img {
+  max-width: 100%;
+}
+
 /* Header i Navegación */
 .nombre-sitio {
   margin-top: 50px;
@@ -42,4 +46,11 @@ a {
   background-size: cover;
   height: 550px;
   width: 100%;
+}
+
+/* Categorias */
+.listado-categorias {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
 }
