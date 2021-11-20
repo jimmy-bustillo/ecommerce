@@ -19,6 +19,7 @@ a {
 
 img {
   max-width: 100%;
+  display: block;
 }
 
 /* Header i Navegación */
@@ -49,8 +50,22 @@ img {
 }
 
 /* Categorias */
+.categorias h2 {
+  text-align: center;
+}
 .listado-categorias {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
+}
+.categoria a {
+  display: block;
+  text-align: center;
+  padding: 20px;
+  font-size: 20px;
+}
+.categoria a:hover {
+  color: #fff;
+  background-color: #037bc0;
+  border-bottom-right-radius: 10px;
 }
