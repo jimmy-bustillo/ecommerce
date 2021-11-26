@@ -46,6 +46,11 @@ img {
   display: block;
 }
 
+/* Utilidades */
+.text-center {
+  text-align: center;
+}
+
 /* Header y Navegación */
 .nombre-sitio {
   margin-top: 5rem;
@@ -79,9 +84,6 @@ img {
   padding-top: 5rem;
 }
 
-.categorias h2 {
-  text-align: center;
-}
 .listado-categorias {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -121,4 +123,9 @@ img {
   flex-basis: 50%;
   padding-left: 10rem;
   color: #fff;
+}
+
+/* Listado de Productos */
+.contenido-principal {
+  padding-top: 5rem;
 }
