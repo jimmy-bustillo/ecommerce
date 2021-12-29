@@ -104,16 +104,28 @@ img {
 .nav-principal {
   padding: 2rem 0;
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+}
+@media (min-width: 768px) {
+  .nav-principal {
+    justify-content: space-between;
+    flex-direction: row;
+  }
 }
 
 .hero {
-  background-image: url("../assets/images/principal.jpg");
+  background-image: url(../assets/images/principal.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  height: 55rem;
   width: 100%;
+  height: 25rem;
+}
+@media (min-width: 768px) {
+  .hero {
+    height: 55rem;
+  }
 }
 
 /* Categorias */
