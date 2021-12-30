@@ -135,10 +135,9 @@ img {
   margin-bottom: 2rem;
 }
 @media (min-width: 768px) {
-    .categorias{
-      margin-bottom: 0;
-}
-.categorias {
+  .categorias {
+    margin-bottom: 0;
+  }
 }
 .categorias img {
   width: 100%;
@@ -176,7 +175,7 @@ img {
   padding: 10rem 0;
   background-position: left center;
   background-repeat: no-repeat;
-  background-size: 100%, 120rem;
+  background-size: 100%, 160rem;
 }
 .sobre-nosotros-flex {
   display: flex;
